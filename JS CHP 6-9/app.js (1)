@@ -1,0 +1,92 @@
+//                         CH6
+//  q1;                        
+
+
+let a =10
+document.writeln("<h1>Result<h1>")
+document.writeln("<h2>The value of a is:10")
+document.writeln("<hr><br>")
+++a
+console.log(a)
+document.writeln("<h2>The value of ++a is:11")
+document.writeln("<h2>Now the value of a is 11<br><br>")
+a++
+console.log(a)
+document.writeln("<h2>The value of a++ is:11")
+document.writeln("<h2>Now the value of a is 12<br><br>")
+--a
+console.log(a)
+document.writeln("<h2>The value of --a is:11")
+document.writeln("<h2>Now the value of a is 11<br><br>")
+
+a--
+console.log(a)
+document.writeln("<h2>The value of a-- is:11")
+document.writeln("<h2>Now the value of a is 10<br><br>")
+
+
+// q2;
+var aa = 2, b = 1;
+        var result;
+
+        document.writeln("The initial value of a is: " + aa + "<br>");
+        document.writeln("The initial value of b is: " + b + "<br><hr>");
+
+        
+        document.writeln("--a;<br>");
+        document.writeln("Value of --a is: " + (--aa) + "<br>");
+        document.writeln("Now the value of a is: " + aa + "<hr>");
+
+        
+        aa = 2; b = 1; 
+        document.writeln("--a - --b;<br>");
+        document.writeln("Result of (--a - --b) = " + ((--aa) - (--b)) + "<br><hr>");
+
+        
+        aa= 2; b = 1; 
+        document.writeln("--a - --b + ++b;<br>");
+        document.writeln("Result of (--a - --b + ++b) = " + ((--aa) - (--b) + (++b)) + "<br><hr>");
+
+       
+        aa = 2; b = 1;
+        result = --aa - --b + ++b + b--;
+        document.writeln("--a - --b + ++b + b--;<br>");
+        document.writeln("Result of (--a - --b + ++b + b--) = " + result + "<br>");
+        document.writeln("Final value of a is: " + aa + "<br>");
+        document.writeln("Final value of b is: " + b + "<br>");
+        console.log(" final value of a:1")
+        console.log("Final value of b:0")
+        console.log("result is :3")
+
+
+        //  q3 
+    let userName = prompt("Enter your name:");
+alert("Hello, " + userName + "! Welcome to my website 😊");
+
+
+// q4;
+
+let num = prompt("Enter a number to show its multiplication table:");
+
+
+num = num || 5;
+
+
+console.log("Multiplication Table of " + num);
+console.log("------------------------------");
+
+
+console.log(num + " x 1 = " + (num * 1));
+console.log(num + " x 2 = " + (num * 2));
+console.log(num + " x 3 = " + (num * 3));
+console.log(num + " x 4 = " + (num * 4));
+console.log(num + " x 5 = " + (num * 5));
+console.log(num + " x 6 = " + (num * 6));
+console.log(num + " x 7 = " + (num * 7));
+console.log(num + " x 8 = " + (num * 8));
+console.log(num + " x 9 = " + (num * 9));
+console.log(num + " x 10 = " + (num * 10));
+
+
+
+// q5;
